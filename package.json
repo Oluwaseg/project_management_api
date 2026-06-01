@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js"
+    "dev": "nodemon index.js",
+    "import:projects": "node import-projects.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
